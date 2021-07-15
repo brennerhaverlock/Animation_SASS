@@ -1,3 +1,27 @@
+body
+{
+  background-color: #212121;
+  color: rgb(255,255,204);
+  font-family:Arial;
+  text-align:center;
+  width:100%;
+}
+body h1
+{
+  text-shadow: 0.2em 0.2em 1em rgb(255,255,204);
+}
+/* div
+{
+  border: 0.2em dashed rgb(255,255,204);
+  border-radius:100px;
+  color:#212121;
+  display:inline-block;
+  margin: 0 2% 0;
+  height:200px;
+  transition: all 1s ease;
+  width:200px;
+} */
+
 .logo-twitter-large {
     background-color: #00aced;
     width: 300px;
@@ -9,6 +33,13 @@
   align-items: center;
   text-align: center;
     overflow: hidden;
+    border: 0.2em dashed rgb(255,255,204);
+    border-radius:100px;
+    display:inline-block;
+    margin: 0 2% 0;
+    transition: all 1s ease;
+    
+    
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
@@ -23,6 +54,12 @@
 
 
   .logo-twitter-large div {
+    /* border: 0.2em dashed rgb(255,255,204); */
+    border-radius:100px;
+    /* color:#212121; */
+    display:inline-block;
+    margin: 0 2% 0;
+    transition: all 1s ease;
     position: absolute;
     display: flex;
     -webkit-border-radius: 100%;
@@ -55,5 +92,92 @@
     width: 88px;
     height: 77px;
   }
+
+
+  .logo-twitter-large .wing-top-none {
+    top: -77px;
+    left: 53px;
+    width: 200px;
+    height: 200px;
+  }
+  .logo-twitter-large .wing-middle {
+    top: 95px;
+    left: 68px;
+    width: 88px;
+    height: 73px;
+  }
+  .logo-twitter-large .wing-middle-none {
+    top: -25px;
+    left: 20px;
+    width: 160px;
+    height: 160px;
+  }
+  .logo-twitter-large .wing-bottom {
+    top: 121px;
+    left: 80px;
+    width: 70px;
+    height: 70px;
+  }
+  .logo-twitter-large .wing-bottom-none {
+    top: 106px;
+    left: 58px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .logo-twitter-large .beak-bottom {
+    width: 100px;
+    height: 100px;
+    left: 145px;
+    top: 21px;
+  }
+  .logo-twitter-large .beak-bottom-none {
+    width: 115px;
+    height: 115px;
+    left: 155px;
+    top: -14px;
+  }
+  .logo-twitter-large .beak-top {
+    width: 65px;
+    height: 65px;
+    left: 170px;
+    top: 39px;
+  }
+  .logo-twitter-large .beak-top-none {
+    width: 115px;
+    height: 115px;
+    left: 144px;
+    top: -25px;
+  }
+  .logo-twitter-large .head {
+    width: 72px;
+    height: 72px;
+    left: 148px;
+    top: 78px;
+  }
+  .logo-twitter-small {
+    background-color: #00aced;
+    width: 52px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    /* -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC); */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+
+  .logo-twitter-large:hover
+{
+  transform:rotate(360deg); 
+}
+
 
 
