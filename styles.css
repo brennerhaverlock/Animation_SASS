@@ -1,0 +1,59 @@
+.logo-twitter-large {
+    background-color: #00aced;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+    overflow: hidden;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+
+
+  .logo-twitter-large div {
+    position: absolute;
+    display: flex;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    background-color: #ffffff;
+  }
+
+  .logo-twitter-large div[class*=-none] {
+    background-color: #00aced;
+  }
+  .logo-twitter-large .body {
+    top: 16px;
+    left: 15px;
+    width: 206px;
+    height: 206px;
+  }
+
+  .logo-twitter-large .body-none {
+    top: 56px;
+    left: -6px;
+    width: 150px;
+    height: 150px;
+  }
+  .logo-twitter-large .wing-top {
+    top: 65px;
+    left: 68px;
+    width: 88px;
+    height: 77px;
+  }
+
+
